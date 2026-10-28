@@ -13,7 +13,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: logindani.sapi.click
+    - host: loginheni.sapi.click
       http:
         paths:
           - path: /
@@ -25,4 +25,4 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - logindani.sapi.click
+        - loginheni.sapi.click

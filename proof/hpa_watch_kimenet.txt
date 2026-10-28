@@ -1,0 +1,34 @@
+vheni@LAPTOP-K1KG5JF2:~/work/k8s/kubernetes-lab-05-scaling$ kubectl get hpa login-screen --watch
+NAME           REFERENCE                 TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+login-screen   Deployment/login-screen   cpu: 90%/50%   1         10        1          4m5s
+login-screen   Deployment/login-screen   cpu: 227%/50%   1         10        2          4m16s
+login-screen   Deployment/login-screen   cpu: 182%/50%   1         10        5          4m31s
+login-screen   Deployment/login-screen   cpu: 124%/50%   1         10        8          4m46s
+login-screen   Deployment/login-screen   cpu: 46%/50%    1         10        8          5m1s
+login-screen   Deployment/login-screen   cpu: 31%/50%    1         10        8          5m16s
+login-screen   Deployment/login-screen   cpu: 43%/50%    1         10        8          5m31s
+login-screen   Deployment/login-screen   cpu: 35%/50%    1         10        8          5m46s
+login-screen   Deployment/login-screen   cpu: 48%/50%    1         10        8          6m1s
+login-screen   Deployment/login-screen   cpu: 33%/50%    1         10        8          6m16s
+login-screen   Deployment/login-screen   cpu: 3%/50%     1         10        8          6m31s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        8          6m46s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        8          8m1s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        6          8m16s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        6          8m31s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        4          8m46s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        4          9m1s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        2          9m17s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        2          9m32s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          9m47s
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          10m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          10m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          11m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          11m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          11m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          11m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          12m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          12m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          12m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          13m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          13m
+login-screen   Deployment/login-screen   cpu: 0%/50%     1         10        1          14m
